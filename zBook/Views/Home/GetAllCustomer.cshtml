@@ -1,0 +1,8 @@
+﻿
+@using zBook.Models
+@model List<CustomerInfo>
+
+@foreach(var item in Model)
+            {
+                <h5>@item.firstName @item.lastName @item.CompanyName @item.emailId @item.phoneNo</h5> 
+            }
