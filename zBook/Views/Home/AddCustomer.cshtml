@@ -4,17 +4,24 @@
     <meta name="Author" content="W3docs">
     <link rel="stylesheet" type="text/css" href="style.css">
     <h1>Add Customer</h1>
-    <form action="">
+    <form method="post" asp-controller="home" asp-action="AddCustomer">
         <label for="fname">First name:</label>
-        <input type="text" id="fname" name="fname"><br><br>
+        <input type="text" id="fname" name="FirstName"><br><br>
         <label for="lname">Last name:</label>
-        <input type="text" id="lname" name="lname"><br><br>
+        <input type="text" id="lname" name="LastName"><br><br>
         <label for="EnaimId">Email Id:</label>
-        <input type="text" id="email" name="email"><br><br>
+        <input type="text" id="email" name="EmailId"><br><br>
         <label for="MobileNo">Mobile No:</label>
-        <input type="text" id="MobileNo" name="lname"><br><br>
+        <input type="text" id="MobileNo" name="MobileNo"><br><br>
+        <label for="MobileNo">Address:</label>
+        <input type="text" id="MobileNo" name="Address"><br><br>
+        <select id="Select1">
         <input type="submit" value="Submit">
     </form>
+
+    <div>
+
+    </div>
 
 
 

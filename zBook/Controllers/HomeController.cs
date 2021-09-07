@@ -24,14 +24,24 @@ namespace zBook.Controllers
         }
         public IActionResult AddCustomer()
         {
-            string firstName;
-            string lastName;
-            string emailId;
-            string mobileNo;
+            return View();
+        }
+        public IActionResult SignUp()
+        {
+            return View();
+        }
+        [HttpPost]
+        public IActionResult SignUp(SignUpModel signup)
+        {
+            return View();
+        }
+        [HttpPost]
+        public IActionResult AddCustomer(AddCustomer AddCust)
+        {
+
 
             return View();
         }
-
         public IActionResult Privacy()
         {
             return View();
